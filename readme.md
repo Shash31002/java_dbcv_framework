@@ -12,7 +12,7 @@ A lightweight **Java + JDBC + MySQL** framework for validating backend database 
 
 ## 📌 Overview
 
-This framework connects directly to a MySQL database and runs validation queries as automated tests — checking things like row counts, null constraints, referential integrity, and data correctness after operations that an API or UI would normally trigger.
+This framework connect directly to a MySQL database and runs validation queries as automated tests — checking things like row counts, null constraints, referential integrity, and data correctness after operations that an API or UI would normally trigger.
 
 It's designed as a **reusable module**: the `db` package (connection handling + query execution) is built to plug directly into a larger API + UI + SQL integration framework, where the same DB layer verifies backend state after both API calls and browser-driven UI actions.
 
